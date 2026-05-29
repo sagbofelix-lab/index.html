@@ -11,7 +11,7 @@
             background-color: rgb(4, 64, 4);
             width: 1500px;
             height: 100px;
-            margin-bottom: 500px;
+            margin-bottom: 10px;
             color: rgb(232, 181, 87);
         }
         div{
@@ -35,13 +35,64 @@
     </style>
 </head>
 <body>
-    
-</body>
-</html>
-<body>
     <header>
         <em><h2>My Profile</h2></em>
     </header>
+    <h1>Application Form</h1>
+    <form>
+        <label for="appnumber">Applicatin aamunber:</label>
+        <input type="text" id="Appnumber" name="Appnumber" value="0001AA" readonly><br><br>
+
+        <label for="Surname">Surname:</label>
+        <input type="text" id="Surname" name="Surname" required placeholder="Enter your Surnane"><br><br>
+
+        <label for="Firstname">Firstname:</label>
+        <input type="text" id="Firstname" name="firstname" required placeholder="Enter your Firstname"><br><br>
+
+        <label for="othername">othername:</label>
+        <input type="text" id="othername" name="othername" required placeholder="Enter your othername"><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email" required placeholder="Enter your Email address"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" value="234" required placeholder="Enter your phone number"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="comment">Comment:</labe>
+        <textarea rows="1" cols="15"></textarea><br><br>
+
+        <label for="file">Upload Passport:</label>
+        <input type="file" id="file" name="file" accept="image/* required"><br><br>
+
+        <label for="docs">Upload Credentials (PDF only):</label>
+        <input type="file" id="docs" name="docs" multiple required accept="application/pdf"><br><br>
+
+        <label for="age">Select an age category:</label>
+        <select required name="age" id="age">
+            <option>0-10</option>
+            <option>11-20</option>
+            <option>21-30</option>
+            <option>31-40</option>
+            <option>41-50</option>
+            <option>51-60</option>
+            <option>61-70</option>
+            <option>71-80</option>
+            </select>
+            <br><br>
+
+        <label for="interest">Interest:</label>
+        <select required name="interest" multiple>
+            <option>Sport</option>
+            <option>Movie</option>
+            <option>Driving</option>
+            <option>Reading</option>
+            <option>Dancining</option>
+            <option>Writting</option>
+        </select><br><br>
+    </form>
         <h1>Content</h1>
         <a href= "#ordered-List">ordered-list</a> <br>
         <a href= "#unordered-List">unordered-list</a>
