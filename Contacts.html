@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="images/x-icon" href="Sagbo Felix S.png"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <style>
+        header{
+            background-color: green;
+            height: 70px;
+        }
+        footer{
+            background-color: rgb(243, 231, 231);
+            height: 80px;
+            margin-top: 20px;
+        }
+        body{
+            background-color: skyblue;
+            color: blue;
+        }
+        div{
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div><h1>Contacts</h1></div>
+    </header>
+    <hr>
+    <form>
+        <label for="appnumber">Application Number:</label>
+        <input type="text" id="appnumber" name="appnumber" value="001AA" readonly><br><br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required placeholder="Enter your surname"><br><br>
+
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required placeholder="Enter your firstname"><br><br>
+
+        <label for="othername">Other Name:</label>
+        <input type="text" id="othername" name="othername" required placeholder="Enter your other name"><br><br>
+
+        <label for="Email">Email Address:</label>
+        <input type="text" id="email" name="email" required placeholder="Enter your email address"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required maxlength="14" placeholder="234"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="comment">Comment:</label>
+        <textarea rows="1" cols="20"></textarea><br><br>
+
+        <label for="file">Upload Passport:</label>
+        <input type="file" id="file" name="file" accept="image/*" required><br><br>
+
+        <label for="docs">Upload docs PDF only:</label>
+        <input type="file" id="docs" name="docs" multiple accept="application/pdf"><br><br>
+
+        <label for="age">Select an age category:</label>
+        <select required name="age" id="age">
+            <option>0-10</option>
+            <option>11-20</option>
+            <option>21-30</option>
+            <option>31-40</option>
+            <option>41-50</option>
+            <option>51-60</option>
+            <option>61-70</option>
+            <option>71-80</option>
+            <option>81-90</option>
+            <option>91-100</option>
+        </select><br><br>
+
+        <label for="interest">For interest select:</label>
+        <select required name="interest" id="interest" multiple>
+            <option>Football</option>
+            <option>Movies</option>
+            <option>Driving</option>
+            <option>Skating</option>
+            <option>Skydiving</option>
+            <option>Race</option>
+            <option>Tenis</option>
+        </select>
+    </form><br>
+    Click here to go to <a href="index.html">Home Page</a>
+<footer>
+     <h3>INFORMATION</h3>
+        <nav style="margin-left: 2%"><a href="Project.html">Project</a></nav>
+        <nav style="margin-left: 2%"><a href="Contacts.html">Contact</a></nav>
+        <nav style="margin-left: 20%;"><a href="About.html">About</a></nav>
+</footer>
+</body>
+</html>
