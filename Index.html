@@ -3,72 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="icon" type="images/x-icon" href="Sagbo Felix S.png">
+    <title>Document</title>
+    <title>Profile</title>
+    <link rel="icon" type="images/x-icon" href="Images/Putin.png">
     <style>
         header{
-            background-color: skyblue;
-            height: 80px;
+            background-color: rgb(4, 64, 4);
+            width: 1500px;
+            height: 100px;
+            margin-bottom: 10px;
+            color: rgb(232, 181, 87);
+        }
+        div{
+            float: left;
+            width: 33%;
         }
         footer{
             background-color: skyblue;
-            height: 120px;
-            margin-top: 400px;
+            width: 1500px;
+            height: 250px;
         }
-        nav{
-            float:left;
+        .beginning{
+            background-color: aqua;
         }
-        main{
-            color: wheat;
+        .article{
+            background-color: blue;
         }
-        article{
-            color:white;
-        }
-        body{
-            background-color: rgb(3, 76, 3);
+        .semantics{
+            background-color: rgb(203, 232, 244);
         }
     </style>
 </head>
 <body>
     <header>
-        <div style="color:rgb(217, 157, 46); background-color: white; text-align: center;"><h1>Sagbo Felix</h1></div>
-        <nav>Menu</nav>
-        <nav style="margin-left: 2%"><a href="Project.html">Project</a></nav>
-        <nav style="margin-left: 2%"><a href="Contacts.html">Contact</a></nav>
-        <nav style="margin-left: 20%;"><a href="About.html">About</a></nav>
+        <em><h2>My Profile</h2></em>
     </header>
-    <hr>
-    <hr> 
-    <aside>
-        <a href="#Author Warmth">Author Warmth</a><br><br>
-        <a href="#INTRODUCTION">INTRODUCTION</a>
-    </aside>
-    <main>
-        <h2 id="Author Warmth">Author Warmth</h2>
-        <p>
-            Thanks for reaching out to me, i do appreciate your sincerity and recognition,
-        i warmly welcome you on board.</p>
-        <p>
-            I am here to serve you to satisfaction, beyond your immagination is our goal,
-            and our call.
-        </p>
-    </main>
-    <article>
-        <h2 id="INTRODUCTION">INTRODUCTION</h2>
-         <p>
-            I am a profestional web-developer, for any kind of web design you 
-        can talk to me, with my ability i will be able to land you a good job.
-         </p>
-        <p>
-            To reach out to me you can kingly click on my contact link and use any means
-        cummunication that you prefer, i will rapidly response.
-        </p>
-    </article>
+    <h1>Application Form</h1>
+    <form>
+        <label for="appnumber">Applicatin aamunber:</label>
+        <input type="text" id="Appnumber" name="Appnumber" value="0001AA" readonly><br><br>
+
+        <label for="Surname">Surname:</label>
+        <input type="text" id="Surname" name="Surname" required placeholder="Enter your Surnane"><br><br>
+
+        <label for="Firstname">Firstname:</label>
+        <input type="text" id="Firstname" name="firstname" required placeholder="Enter your Firstname"><br><br>
+
+        <label for="othername">othername:</label>
+        <input type="text" id="othername" name="othername" required placeholder="Enter your othername"><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email" required placeholder="Enter your Email address"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" value="234" required placeholder="Enter your phone number"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="comment">Comment:</labe>
+        <textarea rows="1" cols="15"></textarea><br><br>
+
+        <label for="file">Upload Passport:</label>
+        <input type="file" id="file" name="file" accept="image/* required"><br><br>
+
+        <label for="docs">Upload Credentials (PDF only):</label>
+        <input type="file" id="docs" name="docs" multiple required accept="application/pdf"><br><br>
+
+        <label for="age">Select an age category:</label>
+        <select required name="age" id="age">
+            <option>0-10</option>
+            <option>11-20</option>
+            <option>21-30</option>
+            <option>31-40</option>
+            <option>41-50</option>
+            <option>51-60</option>
+            <option>61-70</option>
+            <option>71-80</option>
+            </select>
+            <br><br>
+
+        <label for="interest">Interest:</label>
+        <select required name="interest" multiple>
+            <option>Sport</option>
+            <option>Movie</option>
+            <option>Driving</option>
+            <option>Reading</option>
+            <option>Dancining</option>
+            <option>Writting</option>
+        </select><br><br>
+    </form>
+        <h1>Content</h1>
+        <a href= "#ordered-List">ordered-list</a> <br>
+        <a href= "#unordered-List">unordered-list</a>
+        <br>
+        
+        <h2 id="ordered-list">ordered-list</h2>
+        <ol>
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+            <li>Saturday</li>
+            <li>Sunday</li>
+        </ol>
+        <br>
+        <h2 id="unordered-list">unordered-list</h2>
+        <ul>
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+            <li>Saturday</li>
+            <li>Sunday</li>
+        </ul>
+           <article>
+        <h3>The Main Body</h3>
+        Chief Olusegun Matthew Okikiola Ogunboye Aremu Obasanjo GCFR[1][2] (// ⓘ; 
+        Yoruba: Olúṣẹ́gun Ọbásanjọ́ [ōlúʃɛ́ɡũ̄ ɔ̄básã̄d͡ʒɔ́] ⓘ; born c. 5 March 1937) 
+        is a Nigerian politician, statesman, agriculturalist, and former army general 
+        who served as Nigeria's Military Head of State from 1976 to 1979 and later as 
+        its president from 1999 to 2007. Ideologically a Nigerian nationalist, he was 
+        a member of the Peoples Democratic Party (PDP) from 1998 to 2015, and since 2018.
+           </article>
+           <article>
+            <h4>Olusegun Obasanjo Biography</h4>
+            Born in the village of Ibogun-Olaogun to a farming family of the Owu branch of 
+            the Yoruba, Obasanjo was educated largely in Abeokuta, Ogun State. He joined the
+            Nigerian Army and specialised in engineering and served in the Congo, 
+            Britain, and India, rising to the rank of Major. In the late 1960s, 
+            he played a major role in combating Biafran separatists during the 
+            Nigerian Civil War, accepting their surrender in 1970. In 1975, 
+            a military coup established a junta with Obasanjo as part of its 
+            ruling triumvirate. After the triumvirate's leader, Murtala Muhammed, 
+            was assassinated the following year, the Supreme Military Council[3] 
+            appointed Obasanjo as head of state. Continuing Murtala's policies, 
+            Obasanjo oversaw budgetary cut-backs and an expansion of access to 
+            free school education. Increasingly aligning Nigeria with the United 
+            States, he also emphasised support for groups opposing white minority 
+            rule in southern Africa. Committed to restoring democracy, Obasanjo 
+            oversaw the 1979 election, after which he transferred control of 
+            Nigeria to the newly elected civilian president, Shehu Shagari. 
+            Obasanjo then retired to Ota, Ogun, where he became a farmer, 
+            published four books, and took part in international initiatives 
+            to end various African conflicts.
+        </article>
+        <iframe src="https://lagosstate.gov.ng/" height="200" width="500" title="Lagos State" style="border: 5px red;"></iframe> <hr>
+        <h1><b><em>Form</em></b></h1>
+        <form>
+            <span>Surname</span><input type="text"><br> <br>
+            <span>First Name</span><input type="text"><br> <br>
+            <span>Middle Name</span><input type="text"><br> <br>
+            <span>Email Address</span><input type="email"><br> <br>
+            <span>Phone Number</span><input type="tel"><br> <br>
+            <span>Date of Birth</span><input type="date"><br> <br>
+            <span>Number</span><input type="number"><br> <br>
+            <span>Sex</span>
+            Male<input type="radio" name="sex">
+            Female<input type="radio" name="sex"><br> <br>
+            <span>Click here to reset</span><input type="reset"><br> <br>
+            <h3>Select your favourite player</h3>
+            <span>Ronaldo</span><input type="checkbox"><br>
+            <span>Messi</span><input type="checkbox"><br>
+            <span>Neymar</span><input type="checkbox"><br>
+            <span>Hazard</span><input type="checkbox"><br>
+            <span>Palmer</span><input type="checkbox"><br>
+            <h3>Select your favourite Club</h3>
+            <select>
+                <option>--select--</option>
+                <option>Chelsea</option>
+                <option>Arsenal</option>
+                <option>Machester United</option>
+                <option>Machester City</option>
+                <option>Liverpool</option>
+                <option>Real Madrid</option>
+                <option>Barcelona</option>
+                <option>Athletico Madrid</option>
+                <option>Inter Milan</option>
+                <option>Ac Milan</option>
+                <option>Juventus</option>
+                <option>Napoli</option>
+                <option>Como</option>
+                <option>Paris Saint Germin</option>
+                <option>Monaco</option>
+                <option>Lille</option>
+                <option>Marseille</option>
+                <option>Lyon</option>
+            </select>
+            <h2>Login Here</h2>
+            <span>Username</span><input type="text"> <br> <br>
+            <span>Password</span><input type="password">
+        </form>
     <footer>
-        <h3>INFORMATION</h3>
-        <nav style="margin-left: 2%"><a href="Project.html">Project</a></nav>
-        <nav style="margin-left: 2%"><a href="Contacts.html">Contact</a></nav>
-        <nav style="margin-left: 20%;"><a href="About.html">About</a></nav>
+        <div Class="beginning">
+            <h2>Beginning</h2>
+            <p>Title</p>
+            <p>Menu</p>
+            <p>Content</p>
+            <p>Article</p>
+        </div>
+        <div Class="article">
+            <h2>Article</h2>
+            <p>Body</p>
+            <p>Paragragh</p>
+            <p>Write-up</p>
+            <p>Tags</p>
+        </div>
+        <div Class="semantics">
+            <h2>Semantics</h2>
+            <p>Syntax</p>
+            <p>Article</p>
+            <p>iframe</p>
+            <p>Class</p>
+        </div>
     </footer>
 </body>
 </html>
